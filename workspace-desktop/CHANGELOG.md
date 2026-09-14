@@ -1,5 +1,13 @@
 # Hoblets for Mac
 
+## [0.1.9] - 2026-09-14
+
+### Highlights
+
+- Import large memory collections without project or note-count cutoffs.
+- Memory imports continue in the background in manageable batches, with progress and safe retries.
+- Previously imported notes are clearly marked Already imported.
+
 ## [0.1.8] - 2026-09-11
 
 ### Highlights

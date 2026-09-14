@@ -1,22 +1,27 @@
-version: 0.1.8
+version: 0.1.9
 files:
-  - url: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.8/Hoblets-0.1.8-arm64.zip
-    sha512: T/VLb7ouexOW/G9CEXXw1VhPgLxbnLpsEaYGXVIZSa4z5FOd7dHIZXQZUo7zYej6Pk4nfYzF41COsEQnWy7F7Q==
-    size: 115098297
-  - url: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.8/Hoblets-0.1.8-arm64.dmg
-    sha512: qRxYhE2epiUURuyb8fJJI6jRBGqk/vRbGo5gqHJuXTd5XZR3zPzHuMabp8w2PNHiVaWFxHouH/V0VteIyw0ofg==
-    size: 115329433
-  - url: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.8/Hoblets-0.1.8-x64.zip
-    sha512: 6L5RKnAvdx2s/94VQn+VQu0tSETaOd2fZ5Jp19UNXU10Rzbq3SzvbWR7rr/t5t0RqUmIllpg0hEpIJaz6xqnUw==
-    size: 121162659
-  - url: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.8/Hoblets-0.1.8-x64.dmg
-    sha512: ivjIlyQLt4sgYGcmvnuQk04nQbl4/PmkJ9I+quKjFSaijLT3c+v5SbCR14ut4KGsrwHOqGnLsmdspbc0frvYdA==
-    size: 121376226
-path: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.8/Hoblets-0.1.8-arm64.zip
-sha512: T/VLb7ouexOW/G9CEXXw1VhPgLxbnLpsEaYGXVIZSa4z5FOd7dHIZXQZUo7zYej6Pk4nfYzF41COsEQnWy7F7Q==
-releaseDate: 2026-09-12T03:34:38.913Z
-releaseNotes: |
+  - url: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.9/Hoblets-0.1.9-arm64.zip
+    sha512: iE9/eGHcnjgKNGzrmYjc1q3WqnrmU/IHgyB3ycwrdGx6zUJcbkRqyP6DiRiWwb3JM+X4ity+wGPhh5ZPQB1NaA==
+    size: 115098111
+  - url: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.9/Hoblets-0.1.9-arm64.dmg
+    sha512: Bs5zosfv3/fil8+nrTaqT7l3nQdhO51yhULafMAIwa+s591noZbPh2FH3RJI40phDBPdV/Q69e7RjB8f+RUEwg==
+    size: 115329223
+  - url: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.9/Hoblets-0.1.9-x64.zip
+    sha512: VSdV2yLWlA4gk1lR9DzQ4y6EH0ktVR8S5CO2m91LHwKPzkLo+QkDY4d1AivAEkBoQSjMcI98G9GWlHuDxViI3A==
+    size: 121162463
+  - url: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.9/Hoblets-0.1.9-x64.dmg
+    sha512: PWCbgIKDBJZH3gnbAjtlp4hwhtVs5/vdqnvcagEj+QPETcNyMxHKvZI3zLVxkg4ZXWF/k1E/sL6S0nsosF2kyg==
+    size: 121376285
+path: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.9/Hoblets-0.1.9-arm64.zip
+sha512: iE9/eGHcnjgKNGzrmYjc1q3WqnrmU/IHgyB3ycwrdGx6zUJcbkRqyP6DiRiWwb3JM+X4ity+wGPhh5ZPQB1NaA==
+releaseDate: 2026-09-14T19:21:50.489Z
+releaseNotes: >
   ### Highlights
 
-  - Updates now use the renamed Hoblets release repository.
-  - Existing installations keep their settings and can update normally.
+
+  - Import large memory collections without project or note-count cutoffs.
+
+  - Memory imports continue in the background in manageable batches, with
+  progress and safe retries.
+
+  - Previously imported notes are clearly marked Already imported.
