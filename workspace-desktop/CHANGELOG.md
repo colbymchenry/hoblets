@@ -1,5 +1,13 @@
 # Hoblets for Mac
 
+## [0.1.10] - 2026-09-14
+
+### Highlights
+
+- Import large memory files without shortening or splitting them yourself.
+- Keep each original as one editable memory, with progress and safe retries.
+- Hindsight processes large memories in the background while you keep working.
+
 ## [0.1.9] - 2026-09-14
 
 ### Highlights
