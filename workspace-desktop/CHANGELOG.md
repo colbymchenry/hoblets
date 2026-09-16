@@ -1,5 +1,12 @@
 # Hoblets for Mac
 
+## [0.1.11] - 2026-09-16
+
+### Highlights
+
+- Drag chat images onto your desktop or into a folder.
+- Save images from the download button on thumbnails and fullscreen previews.
+
 ## [0.1.10] - 2026-09-14
 
 ### Highlights
