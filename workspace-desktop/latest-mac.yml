@@ -1,22 +1,25 @@
-version: 0.1.11
+version: 0.1.12
 files:
-  - url: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.11/Hoblets-0.1.11-arm64.zip
-    sha512: kLRW0gYXPoJfoBSBxWzVJwwPdzrvFT6tNYjYQhsCoe7jfq+vk/qSJ3QT4E4eciCjIBzo3Hu74GdpZzPPFz9jlg==
-    size: 115100318
-  - url: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.11/Hoblets-0.1.11-arm64.dmg
-    sha512: 3xnCg1sieOLgA92vBTIoOm/Lj3Ei02V1I+QwQWdEf8BLDYLxWfWyv/23mWwiNenVNIWLVEcy6hS3iPg9dNOtMQ==
-    size: 115331348
-  - url: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.11/Hoblets-0.1.11-x64.zip
-    sha512: kmGbtaZQD69bbAVTomcoMo1u+TARrofTFlzngrkAZhPpm+i3IeKKnybKlb6ay0ZcXK5UEjG7zsHv14D9Clxt0A==
-    size: 121164602
-  - url: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.11/Hoblets-0.1.11-x64.dmg
-    sha512: tc8733IjP2L2ok6fBzrCQCNKaWJLjgSMNYqU6XOugKOdeoaCK2dHNNZmyAR/fe9nfER+2uvRBaEG/DtY4txP7A==
-    size: 121382631
-path: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.11/Hoblets-0.1.11-arm64.zip
-sha512: kLRW0gYXPoJfoBSBxWzVJwwPdzrvFT6tNYjYQhsCoe7jfq+vk/qSJ3QT4E4eciCjIBzo3Hu74GdpZzPPFz9jlg==
-releaseDate: 2026-09-16T22:47:40.553Z
-releaseNotes: |
+  - url: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.12/Hoblets-0.1.12-arm64.zip
+    sha512: LfwBhVfgc5FtjHNZRznP03kuie6b8mNBGionWmFYeCnWrWs67hgBAaAe2NyibaJI3pO0LeyERVwpvFHINXxMeA==
+    size: 113828502
+  - url: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.12/Hoblets-0.1.12-arm64.dmg
+    sha512: UTVXvoHrUNcUqvQas8EUT2pGpgc04aywyB3zfYFKyZ2dlKgY5nH5sX9w0IFqbQbPj9KzzwEXGKl1YuuJ8ny5/A==
+    size: 114065369
+  - url: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.12/Hoblets-0.1.12-x64.zip
+    sha512: FxLuoKodS/kWmkSkeSS7eVz0dSNp8qa5cIcDpsfp+Bn3sEL7ZwP++gCEIjJuMIVBT178PUV5/s1rJNOht98tCw==
+    size: 121164992
+  - url: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.12/Hoblets-0.1.12-x64.dmg
+    sha512: RDpoxBOgHvQ2q0XSGbjAok5BhxK0U+s1kirXNBmf4IbGUsEfSdBZ891G0F25t3Ry/rfCElyF/qJQZWPC7aFUDQ==
+    size: 121383014
+path: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.12/Hoblets-0.1.12-arm64.zip
+sha512: LfwBhVfgc5FtjHNZRznP03kuie6b8mNBGionWmFYeCnWrWs67hgBAaAe2NyibaJI3pO0LeyERVwpvFHINXxMeA==
+releaseDate: 2026-09-17T20:35:47.510Z
+releaseNotes: >
   ### Highlights
 
-  - Drag chat images onto your desktop or into a folder.
-  - Save images from the download button on thumbnails and fullscreen previews.
+
+  - Keep dragging and saving chat images without running out of temporary
+  exports.
+
+  - Reuse image exports and automatically refresh older images when needed.

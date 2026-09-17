@@ -1,8 +1,8 @@
 {
-  "version": "0.1.11",
-  "releaseDate": "2026-09-16T22:47:40.553Z",
+  "version": "0.1.12",
+  "releaseDate": "2026-09-17T20:35:47.510Z",
   "downloads": {
-    "arm64": "https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.11/Hoblets-0.1.11-arm64.dmg",
-    "x64": "https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.11/Hoblets-0.1.11-x64.dmg"
+    "arm64": "https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.12/Hoblets-0.1.12-arm64.dmg",
+    "x64": "https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.1.12/Hoblets-0.1.12-x64.dmg"
   }
 }

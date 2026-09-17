@@ -1,5 +1,12 @@
 # Hoblets for Mac
 
+## [0.1.12] - 2026-09-17
+
+### Highlights
+
+- Keep dragging and saving chat images without running out of temporary exports.
+- Reuse image exports and automatically refresh older images when needed.
+
 ## [0.1.11] - 2026-09-16
 
 ### Highlights
