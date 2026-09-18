@@ -13,22 +13,24 @@ Your own little team. Talk to your bots, share their workspace, and open their d
 
 Requires macOS 13 or later. Open the DMG and drag Hoblets to Applications.
 
+If you previously installed Hoblets under the old Kommandr app identity, install this new Hoblets app once. Your existing local sign-in data is preserved.
+
 The app checks for updates automatically and shows what's new before you download. Restart whenever you're ready. Builds are Developer ID signed and notarized by Apple.
 
-[Latest release](https://github.com/colbymchenry/hoblets/releases/latest) · [What's new](./workspace-desktop/CHANGELOG.md) · [Open in your browser](https://hoblets.com/app)
+[Latest release](https://github.com/colbymchenry/hoblets/releases/latest) · [What's new](./hoblets-desktop/CHANGELOG.md) · [Open in your browser](https://hoblets.com/app)
 
 This repository contains public downloads and release notes. The app is built from private source repositories; no source code or signing credentials are included here.
 
-## Earlier developer app
+## Kommandr
 
-The earlier Kommandr app manages software projects, issues, and coding agents. Its installers and update feed remain available separately from the new workspace app.
+Kommandr manages software projects, issues, and coding agents. Its installers and update feed remain available separately from the new workspace app.
 
-Download the earlier developer app, open the `.dmg`, and drag Kommandr to Applications:
+Download Kommandr, open the `.dmg`, and drag Kommandr to Applications:
 
 | Mac | Download |
 |---|---|
-| Apple silicon (M1 and later) | [Kommandr-arm64.dmg](https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.1/Kommandr-arm64.dmg) |
-| Intel | [Kommandr-x64.dmg](https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.1/Kommandr-x64.dmg) |
+| Apple silicon (M1 and later) | [Kommandr-arm64.dmg](https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.2/Kommandr-arm64.dmg) |
+| Intel | [Kommandr-x64.dmg](https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.2/Kommandr-x64.dmg) |
 
 Every build is Developer ID signed and notarized by Apple. The app checks for updates
 itself and offers to install them; see [CHANGELOG.md](./CHANGELOG.md) for what's in each
@@ -39,7 +41,7 @@ version, or browse the [releases](https://github.com/colbymchenry/hoblets/releas
 Windows and Linux builds are not available yet. This is an early alpha — expect rough edges,
 and please report anything broken.
 
-### Earlier phone companion
+### Kommandr phone companion
 
 The Kommandr iOS app pairs with the desktop app by QR code so you can follow task runs,
 answer an agent's questions, and start work from your phone. It is distributed through
