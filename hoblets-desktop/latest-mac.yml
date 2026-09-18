@@ -1,0 +1,28 @@
+version: 0.2.0
+files:
+  - url: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.2.0/Hoblets-0.2.0-arm64.zip
+    sha512: Wy1W2SG14DQ+dLnVEZKzBsHljsy1nEtl00c2oG82HTaUI/m/YTLAdv9pNLqRPRvUAhP7WWi8L15FL0LG4b1Kew==
+    size: 113828436
+  - url: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.2.0/Hoblets-0.2.0-arm64.dmg
+    sha512: onYPM54YucCJpfwJxwFY4BWCmS+6mxY1zI2vXjdgW/DphoSarhYpNbl8auYjqiKGSCP5bgvdT0gN4k/qCL704Q==
+    size: 114065337
+  - url: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.2.0/Hoblets-0.2.0-x64.zip
+    sha512: ahh3JKUq4MHmS1UAcsLGvioxvmxrTN5qdKaOwMBGMcwS9BWt1iTnshobktYqextmTKoUu1m/3jpw6bgkLg3W1w==
+    size: 121164985
+  - url: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.2.0/Hoblets-0.2.0-x64.dmg
+    sha512: taleaAZdWnGer/yTfyj4wDtMR52fsNFeS8w+iRJq53ermBfT6vDjQLLkJpON/8Z5/XnJ5KYeTk+LPnPr0+ra5Q==
+    size: 121383538
+path: https://github.com/colbymchenry/hoblets/releases/download/workspace-v0.2.0/Hoblets-0.2.0-arm64.zip
+sha512: Wy1W2SG14DQ+dLnVEZKzBsHljsy1nEtl00c2oG82HTaUI/m/YTLAdv9pNLqRPRvUAhP7WWi8L15FL0LG4b1Kew==
+releaseDate: 2026-09-18T20:44:59.205Z
+releaseNotes: >
+  ### Highlights
+
+
+  - Hoblets now has its own app identity, separate from Kommandr.
+
+  - Install this version once from hoblets.com/download; future Hoblets updates
+  use the new dedicated update channel.
+
+  - Keeps your existing Hoblets desktop profile and account. Kommandr continues
+  using its original app and update channel.
