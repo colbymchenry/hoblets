@@ -14,6 +14,15 @@ and adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ## [Unreleased]
 
 
+## [0.6.3] - 2026-09-18
+
+### Highlights
+- Mobile boards and chats keep loading when the network cannot establish a WebSocket connection.
+
+### Fixes
+- Restored HTTP fallback for mobile live updates, including board contents, chat history, and incoming replies. Fixed desktop request routing so fallback connections reach Socket.IO correctly.
+- Preserved executable permissions on the bundled terminal helper so terminal sessions can start in the installed desktop app.
+
 ## [0.6.2] - 2026-09-18
 
 ### Highlights
@@ -218,3 +227,4 @@ and adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 [0.6.0]: https://github.com/colbymchenry/kommandr/releases/tag/desktop-v0.6.0
 [0.6.1]: https://github.com/colbymchenry/kommandr/releases/tag/desktop-v0.6.1
 [--help]: https://github.com/colbymchenry/kommandr/releases/tag/desktop-v--help
+[0.6.3]: https://github.com/colbymchenry/kommandr/releases/tag/desktop-v0.6.3

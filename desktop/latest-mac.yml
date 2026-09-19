@@ -1,32 +1,32 @@
-version: 0.6.2
+version: 0.6.3
 files:
-  - url: https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.2/Kommandr-arm64.zip
-    sha512: wdb+cLsY/mK0jfTjxhHCrlT3PHxNJNI1g0QLn5ebCZ9h27Sn94zLMzFVwW4iKPdBC+dPUnm0Q22xJkrsxSG/xw==
-    size: 200106333
-  - url: https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.2/Kommandr-arm64.dmg
-    sha512: nE9gRpKZMgE6jbuvyIReadiDyOhhCc4/g/2T2oaI+JWv8l45IrnqOiWyuImCm4PVm1Q6WASt3OZ7dz9OEVriYQ==
-    size: 209736246
-  - url: https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.2/Kommandr-x64.zip
-    sha512: 9cICYo7kIPQwXd0sE76bp2JeBkPwSYnla0iW6O5LETW6Fh60n/PrD4JG2ah9HjGg1fwskPtdWUpm07LKWT16Ow==
-    size: 208915356
-  - url: https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.2/Kommandr-x64.dmg
-    sha512: xQBdyARH9ipgVCxxgT+/yC6xN8tHCKAoPBQuvoi0cAN2IXdpqEQo4NS7fwg2Q4lq2pzzRV1sK6O27/1PVR1BmA==
-    size: 218285089
-path: https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.2/Kommandr-arm64.zip
-sha512: wdb+cLsY/mK0jfTjxhHCrlT3PHxNJNI1g0QLn5ebCZ9h27Sn94zLMzFVwW4iKPdBC+dPUnm0Q22xJkrsxSG/xw==
-releaseDate: 2026-09-18T21:06:12.700Z
+  - url: https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.3/Kommandr-arm64.zip
+    sha512: UaTsnH3tYBtTT+hbrWKJPA5i6j1zL7z7kOdvuiWZoRikoZAcqzRjliO0k1q2dpzQFDWBDfJJSHvVMozqFRd9ww==
+    size: 200106974
+  - url: https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.3/Kommandr-arm64.dmg
+    sha512: Zo10NaUcsDF1QDpDS14N3SVuEocJxW+uag+F7zxvKrw5yQVkFGZsAGMnp+JcroZnH+BjWeW0M6EC3AHI28/iPw==
+    size: 209766282
+  - url: https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.3/Kommandr-x64.zip
+    sha512: SV7Rt34179tvezaKQBfpBHuDj5nP+HkDQaf/KW2D9opVpx6xG8zXlmR3ry2KcUMNwcqYQN2tXVHoFeSoCtH7DQ==
+    size: 208916045
+  - url: https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.3/Kommandr-x64.dmg
+    sha512: 9maUKYp6A/RHisKPL8CTFP5/iNw/L/lcLGnpJ9jljSUtg6zex+xqnInjy8qZuN9wfe4Shy5yLIjF5Us7qzCOyQ==
+    size: 218489207
+path: https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.3/Kommandr-arm64.zip
+sha512: UaTsnH3tYBtTT+hbrWKJPA5i6j1zL7z7kOdvuiWZoRikoZAcqzRjliO0k1q2dpzQFDWBDfJJSHvVMozqFRd9ww==
+releaseDate: 2026-09-19T00:17:58.790Z
 releaseNotes: >
   ### Highlights
 
-  - Kommandr is available again as its own desktop and mobile app, with the
-  original K icon and existing account access.
+  - Mobile boards and chats keep loading when the network cannot establish a
+  WebSocket connection.
 
 
   ### Fixes
 
-  - Restored kommandr.com, account and membership pages, and downloads that
-  follow Kommandr's own release feed.
+  - Restored HTTP fallback for mobile live updates, including board contents,
+  chat history, and incoming replies. Fixed desktop request routing so fallback
+  connections reach Socket.IO correctly.
 
-  - Kept the existing desktop updater and mobile app identity so current
-  Kommandr users can update. Kommandr and Hoblets now publish separate apps and
-  release notes.
+  - Preserved executable permissions on the bundled terminal helper so terminal
+  sessions can start in the installed desktop app.
