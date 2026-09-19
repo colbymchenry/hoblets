@@ -14,6 +14,16 @@ and adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ## [Unreleased]
 
 
+## [0.6.5] - 2026-09-19
+
+### Highlights
+- Fixed mobile boards and chats freezing after connecting to the desktop.
+- Repaired chats that saved GPT-6 Astra under Claude, so they use Codex and retain their message history.
+
+### Fixes
+- Kept the WebSocket runtime dependency intact in the packaged desktop server. Large chat and board join messages now use its supported fallback instead of failing after the connection upgrades.
+- Reject invalid Claude/Codex model combinations before creating or sending a chat. Desktop chats refresh their provider and model from the saved thread when reopened.
+
 ## [0.6.4] - 2026-09-19
 
 ### Highlights
@@ -237,3 +247,4 @@ and adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 [--help]: https://github.com/colbymchenry/kommandr/releases/tag/desktop-v--help
 [0.6.3]: https://github.com/colbymchenry/kommandr/releases/tag/desktop-v0.6.3
 [0.6.4]: https://github.com/colbymchenry/kommandr/releases/tag/desktop-v0.6.4
+[0.6.5]: https://github.com/colbymchenry/kommandr/releases/tag/desktop-v0.6.5

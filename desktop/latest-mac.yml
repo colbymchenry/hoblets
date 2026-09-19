@@ -1,29 +1,35 @@
-version: 0.6.4
+version: 0.6.5
 files:
-  - url: https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.4/Kommandr-arm64.zip
-    sha512: XeFaaqrdum0dwNn6ofNLsonm+pOL7qIjs9vBWfA2eJrAgYh/04g6uKN4r1DH27XnLQhNqeroyVdRhJxOFL6URA==
-    size: 200108992
-  - url: https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.4/Kommandr-arm64.dmg
-    sha512: XUTS+zQOfOe7hD2VVZDeR4rOYsUz2T116p7mR4uST6VRlOxfZf8yF6xaFO8fsjjOp+SQ9e7kPb9BhkDPs6eKtQ==
-    size: 209561545
-  - url: https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.4/Kommandr-x64.zip
-    sha512: J+QLrEfnExsvTtLhUSMtdZ47Wng0xKLJnwgw35y213RODlFftgoBh2wa1o68C8VC5ZCztZLFrsmXUA/g2Kqi5A==
-    size: 208918049
-  - url: https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.4/Kommandr-x64.dmg
-    sha512: sg6IpQ0TBspOWmlho0mTUhZcKr1G9xqsHOPuvo6/z9hnQThExi8fl0rqCINm/6toAu4CzgXsBX9QWUA/F4vGTg==
-    size: 217779709
-path: https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.4/Kommandr-arm64.zip
-sha512: XeFaaqrdum0dwNn6ofNLsonm+pOL7qIjs9vBWfA2eJrAgYh/04g6uKN4r1DH27XnLQhNqeroyVdRhJxOFL6URA==
-releaseDate: 2026-09-19T01:28:30.442Z
+  - url: https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.5/Kommandr-arm64.zip
+    sha512: qbXCBNB0TM4HH7i52XNYs5ZCY6yk9MzQ171vgqG4GOAg6uXc9YEmZRdJ4J7nvJ9EwQxta8wRrOEvNaFgFhS86Q==
+    size: 199998593
+  - url: https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.5/Kommandr-arm64.dmg
+    sha512: oxURd9oJ/kewl5qVfsAdQyi6nSyNBz3M1lY929LsRj+swYzdr9qzFzkOyzItdVMI6Hj5s4DtU4W9LgKY9qxFdA==
+    size: 209620426
+  - url: https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.5/Kommandr-x64.zip
+    sha512: t113Yx/5404/MTdhFTKgKONkdT8STcVgZgqY6tRnGvZuqgojbqxxTc2JHM1cpCK7T/NrOs+92OBAc1WHbpiUoA==
+    size: 208807620
+  - url: https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.5/Kommandr-x64.dmg
+    sha512: 7XxBUuoll7hBw9DXMo96hALfS/ohZmy81SHv06jDZRNpTq6boUuupBix9gnN8F8Zlienx+A+MXbSVZ7Trl8YLA==
+    size: 217676332
+path: https://github.com/colbymchenry/hoblets/releases/download/desktop-v0.6.5/Kommandr-arm64.zip
+sha512: qbXCBNB0TM4HH7i52XNYs5ZCY6yk9MzQ171vgqG4GOAg6uXc9YEmZRdJ4J7nvJ9EwQxta8wRrOEvNaFgFhS86Q==
+releaseDate: 2026-09-19T04:21:34.009Z
 releaseNotes: >
   ### Highlights
 
-  - Mobile chats use the AI provider shown in the model picker.
+  - Fixed mobile boards and chats freezing after connecting to the desktop.
+
+  - Repaired chats that saved GPT-6 Astra under Claude, so they use Codex and
+  retain their message history.
 
 
   ### Fixes
 
-  - Restored an existing chat’s saved provider and model before enabling mobile
-  sends, even when its live connection is delayed. Choosing a different provider
-  starts a new chat, and the server rejects selections that do not match the
-  chat’s provider.
+  - Kept the WebSocket runtime dependency intact in the packaged desktop server.
+  Large chat and board join messages now use its supported fallback instead of
+  failing after the connection upgrades.
+
+  - Reject invalid Claude/Codex model combinations before creating or sending a
+  chat. Desktop chats refresh their provider and model from the saved thread
+  when reopened.
