@@ -14,6 +14,14 @@ and adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ## [Unreleased]
 
 
+## [0.6.4] - 2026-09-19
+
+### Highlights
+- Mobile chats use the AI provider shown in the model picker.
+
+### Fixes
+- Restored an existing chat’s saved provider and model before enabling mobile sends, even when its live connection is delayed. Choosing a different provider starts a new chat, and the server rejects selections that do not match the chat’s provider.
+
 ## [0.6.3] - 2026-09-18
 
 ### Highlights
@@ -228,3 +236,4 @@ and adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 [0.6.1]: https://github.com/colbymchenry/kommandr/releases/tag/desktop-v0.6.1
 [--help]: https://github.com/colbymchenry/kommandr/releases/tag/desktop-v--help
 [0.6.3]: https://github.com/colbymchenry/kommandr/releases/tag/desktop-v0.6.3
+[0.6.4]: https://github.com/colbymchenry/kommandr/releases/tag/desktop-v0.6.4
