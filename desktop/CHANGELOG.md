@@ -14,6 +14,16 @@ and adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ## [Unreleased]
 
 
+## [0.6.6] - 2026-09-23
+
+### Highlights
+- The native mobile companion restores unanswered questions when you return to a chat or runner.
+- Chat notifications on your phone open the exact conversation that needs your attention.
+
+### Fixes
+- Questions waiting for a response reappear after the phone reconnects, including questions from running tasks.
+- Mobile chat notifications retain the conversation they belong to, so opening a notification does not switch to a different thread.
+
 ## [0.6.5] - 2026-09-19
 
 ### Highlights
@@ -248,3 +258,4 @@ and adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 [0.6.3]: https://github.com/colbymchenry/kommandr/releases/tag/desktop-v0.6.3
 [0.6.4]: https://github.com/colbymchenry/kommandr/releases/tag/desktop-v0.6.4
 [0.6.5]: https://github.com/colbymchenry/kommandr/releases/tag/desktop-v0.6.5
+[0.6.6]: https://github.com/colbymchenry/kommandr/releases/tag/desktop-v0.6.6
