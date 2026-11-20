@@ -1,6 +1,6 @@
-# kommandr public release repo: only the README + installers belong here.
+# Hoblets public downloads: README, release notes and update feeds only.
 # Binaries ship as GitHub Release assets, never committed to git.
-kommandr-*
+Hoblets-*
 *.bak
 dist/
 VERSION
